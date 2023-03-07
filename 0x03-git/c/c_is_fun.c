@@ -2,7 +2,13 @@
 
 int main(){
 
-    printf("Hello world");
+    int age;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
     
+
+    printf("Hello world");
+
     return 0;
 }
